@@ -1,0 +1,55 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Test + tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
+*.log
+
+# TypeScript build artifacts
+tsconfig.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+
+# Secrets — never commit (root-anchored so frontend/.env.* can be committed)
+/.env
+/.env.development
+/.env.production
+
+# Runtime state
+.chroma/
+.claude
+kg_store.json
+data/
+
+# Claude Code internal tool state
+.superpowers/
+
+# Internal planning docs (workflow artifacts — not needed to understand or run the app)
+docs/superpowers/
+
+# Deployment platform-specific
+cloudbuild.yaml
+
+# One-off debug scripts
+test_event.py
+
+# Personal — scratch files and notes
+PERSONAL.md
+PROJECT_STATUS.md
+memoryweave-spec.md
+scratch/
+notes/
+INTERVIEW_PREP.md
+dem.txt
